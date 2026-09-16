@@ -11,7 +11,7 @@ Prosjektet bruker én rolle: **Bruker**. Den samme brukeren kan både opprette i
 | Frontend | React med JavaScript og JSX |
 | Byggverktøy | Vite |
 | Komponentbibliotek | React Bootstrap og Bootstrap CSS |
-| Backend | ASP.NET Core Web API, .NET 8 |
+| Backend | ASP.NET Core Web API, .NET 10 |
 | Database | SQLite |
 | ORM | Entity Framework Core |
 | Autentisering | Lokal cookie-autentisering |
@@ -321,7 +321,7 @@ DTO-er bestemmer hvilke data som kan sendes inn og ut av API-et. De hindrer at d
 | `Program.cs` | Registrerer database, services, autentisering, CORS, Swagger og API-ruter. Serverer også ferdigbygget React lokalt når `client/dist` finnes. |
 | `appsettings.json` | Inneholder SQLite-connection string og logging. |
 | `Properties/launchSettings.json` | Setter API-adressen til `http://localhost:5080`. |
-| `BecomeAWizzard.Api.csproj` | Definerer .NET 8 og NuGet-avhengigheter. |
+| `BecomeAWizzard.Api.csproj` | Definerer .NET 10 og NuGet-avhengigheter. |
 
 ### Automatisk byggkontroll
 
@@ -365,7 +365,7 @@ erDiagram
 
 ### Forutsetninger
 
-- .NET 8 SDK
+- .NET 10 SDK
 - Node.js 20 eller nyere
 - npm
 
