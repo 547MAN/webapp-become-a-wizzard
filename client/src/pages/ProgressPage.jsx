@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Col, Row, Spinner } from 'react-bootstrap'
+import { Col, ProgressBar, Row, Spinner } from 'react-bootstrap'
 import { progressApi } from '../api/progressApi.js'
 import PageHeader from '../components/PageHeader.jsx'
 
